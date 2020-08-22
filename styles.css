@@ -144,11 +144,11 @@ body {
 }
 
 /* disable underline custom class */
-a.no-underline {
+.no-underline {
     text-decoration: none;
 }
 
-a.no-underline:hover {
+.no-underline:hover {
     text-decoration: none;
 }
 
@@ -554,7 +554,7 @@ input.invalid, textarea.invalid {
     border-color: #dc3545;
 }
 
-button {
+.btn, button {
     display: inline-block;
     font-weight: 400;
     color: #212529;
@@ -572,12 +572,12 @@ button {
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-button:focus {
+.btn, button:focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-button:disabled {
+.btn, button:disabled {
     opacity: 0.65;
 }
 
