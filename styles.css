@@ -1,7 +1,26 @@
+/******************
+
+    Taurus CSS
+
+*******************/
+
+
 /*
 CSS Reset from:
 https://hankchizljaw.com/wrote/a-modern-css-reset/
 */
+
+
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+
+
+
 
 
 
@@ -84,8 +103,6 @@ select {
 
 
 
-/* Taurus CSS */
-/* Created from Bootstrap 4 */
 :root {
     --font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
