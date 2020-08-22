@@ -316,7 +316,7 @@ progress {
 }
 
 .d-flex {
-    display: flex !important;
+    display: flex;
 }
 
 .d-flex > * {
@@ -2028,6 +2028,9 @@ button:disabled {
 }
 
 @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
     .col-xl {
         flex-basis: 0;
         flex-grow: 1;
