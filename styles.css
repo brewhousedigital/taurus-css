@@ -659,6 +659,8 @@ input.invalid, textarea.invalid {
     display: block;
 }
 
+button.d-block, .btn.d-block {width: 100%;}
+
 .position-relative {
     position: relative;
 }
