@@ -106,8 +106,6 @@ select {
 :root {
     --font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
-
 }
 
 .list-unstyled {
@@ -143,15 +141,6 @@ body {
     font-family: var(--font-default);
 }
 
-/* disable underline custom class */
-.no-underline {
-    text-decoration: none;
-}
-
-.no-underline:hover {
-    text-decoration: none;
-}
-
 /* hr spacing */
 hr {
     margin-top: 1rem;
@@ -167,10 +156,6 @@ kbd,
 samp {
     font-family: var(--font-monospace);
     font-size: 1em;
-}
-
-.text-monospace {
-    font-family: var(--font-monospace);
 }
 
 pre {
@@ -304,6 +289,20 @@ progress {
 ::-webkit-file-upload-button {
     font: inherit;
     -webkit-appearance: button;
+}
+
+
+/* disable underline custom class */
+.no-underline {
+    text-decoration: none;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+}
+
+.text-monospace {
+    font-family: var(--font-monospace);
 }
 
 .container,
@@ -572,12 +571,12 @@ input.invalid, textarea.invalid {
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.btn, button:focus {
+.btn:focus, button:focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.btn, button:disabled {
+.btn:disabled, button:disabled {
     opacity: 0.65;
 }
 
