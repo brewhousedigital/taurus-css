@@ -316,6 +316,8 @@ progress {
 
 .d-flex {
     display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .d-flex > * {
@@ -1139,6 +1141,15 @@ button.d-block, .btn.d-block {width: 100%;}
     }
     .d-sm-flex {
         display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .d-sm-flex > * {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .flex-sm-row {
         flex-direction: row;
@@ -1442,8 +1453,18 @@ button.d-block, .btn.d-block {width: 100%;}
     .d-md-block {
         display: block;
     }
+
     .d-md-flex {
         display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .d-md-flex > * {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .flex-md-row {
         flex-direction: row;
@@ -1747,8 +1768,18 @@ button.d-block, .btn.d-block {width: 100%;}
     .d-lg-block {
         display: block;
     }
+
     .d-lg-flex {
         display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .d-lg-flex > * {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .flex-lg-row {
         -ms-flex-direction: row;
@@ -2065,8 +2096,18 @@ button.d-block, .btn.d-block {width: 100%;}
     .d-xl-table {
         display: table;
     }
+
     .d-xl-flex {
         display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .d-xl-flex > * {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .flex-xl-row {
         -ms-flex-direction: row;
