@@ -23,3 +23,7 @@ Save some space and load time, and write your HTML to render only what is needed
 ## For even smaller size:
 
 You can mix and match your own partials for a custom build.
+
+## What if I want to use all of Bootstrap 4?
+
+No styles have been altered in this fork, just a lot of things removed. You will be able to drop in the full Bootstrap 4 library and replace Taurus CSS without any problems.
