@@ -21,6 +21,9 @@ module.exports = function(grunt) {
         },
 
         cssmin: {
+            options: {
+
+            },
             css: {
                 src: 'styles.css',
                 dest: 'styles.min.css'
